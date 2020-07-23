@@ -1,0 +1,335 @@
+$> dns-client www.cnn.com
+
+
+Preparing DNS query...
+Contacting DNS server...
+Sending DNS query...
+<attemp 1 > please wait...
+DNS response received (attempt  1  of 3) 
+
+Processing DNS response...
+
+======================Header=====================
+headerID : 0x00c4
+headerQR : 1
+headerOpcode : 0
+headerAA : 0
+headerTC : 0
+headerRD : 1
+headerRA : 1
+headerZ : 0
+headerRcode : 0
+QDCOUNT : 1
+ANCOUNT : 5
+NSCOUNT : 0
+ARCOUNT : 0
+
+====================Question=====================
+QNAME : www.cnn.com.
+QTYPE : 0x1
+QCLASS : 0x1
+
+======================Answer=====================
+
+######Answer 1 #######
+NAME : www.cnn.com. ( c0 0c )
+TYPE : 0x5
+CLASS : 0x1
+TTL(time to live) : 273
+RDLENGTH : 27
+RDATA : turner-tls.map.fastly.net.
+
+######Answer 2 #######
+NAME : turner-tls.map.fastly.net. ( c0 29 )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 29
+RDLENGTH : 4
+RDATA : 151.101.1.67   ##resolved IP address##
+
+######Answer 3 #######
+NAME : turner-tls.map.fastly.net. ( c0 29 )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 29
+RDLENGTH : 4
+RDATA : 151.101.65.67   ##resolved IP address##
+
+######Answer 4 #######
+NAME : turner-tls.map.fastly.net. ( c0 29 )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 29
+RDLENGTH : 4
+RDATA : 151.101.129.67   ##resolved IP address##
+
+######Answer 5 #######
+NAME : turner-tls.map.fastly.net. ( c0 29 )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 29
+RDLENGTH : 4
+RDATA : 151.101.193.67   ##resolved IP address##
+=================================================
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$> dns-client yahoo.com
+
+
+Preparing DNS query...
+Contacting DNS server...
+Sending DNS query...
+<attemp 1 > please wait...
+DNS response received (attempt  1  of 3) 
+
+Processing DNS response...
+
+======================Header=====================
+headerID : 0x0090
+headerQR : 1
+headerOpcode : 0
+headerAA : 0
+headerTC : 0
+headerRD : 1
+headerRA : 1
+headerZ : 0
+headerRcode : 0
+QDCOUNT : 1
+ANCOUNT : 6
+NSCOUNT : 0
+ARCOUNT : 0
+
+====================Question=====================
+QNAME : yahoo.com.
+QTYPE : 0x1
+QCLASS : 0x1
+
+======================Answer=====================
+
+######Answer 1 #######
+NAME : yahoo.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 977
+RDLENGTH : 4
+RDATA : 72.30.35.9   ##resolved IP address##
+
+######Answer 2 #######
+NAME : yahoo.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 977
+RDLENGTH : 4
+RDATA : 98.137.246.7   ##resolved IP address##
+
+######Answer 3 #######
+NAME : yahoo.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 977
+RDLENGTH : 4
+RDATA : 98.137.246.8   ##resolved IP address##
+
+######Answer 4 #######
+NAME : yahoo.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 977
+RDLENGTH : 4
+RDATA : 72.30.35.10   ##resolved IP address##
+
+######Answer 5 #######
+NAME : yahoo.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 977
+RDLENGTH : 4
+RDATA : 98.138.219.232   ##resolved IP address##
+
+######Answer 6 #######
+NAME : yahoo.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 977
+RDLENGTH : 4
+RDATA : 98.138.219.231   ##resolved IP address##
+=================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$> dns-client cnn.com
+
+
+Preparing DNS query...
+Contacting DNS server...
+Sending DNS query...
+<attemp 1 > please wait...
+DNS response received (attempt  1  of 3) 
+
+Processing DNS response...
+
+======================Header=====================
+headerID : 0x00ca
+headerQR : 1
+headerOpcode : 0
+headerAA : 0
+headerTC : 0
+headerRD : 1
+headerRA : 1
+headerZ : 0
+headerRcode : 0
+QDCOUNT : 1
+ANCOUNT : 4
+NSCOUNT : 0
+ARCOUNT : 0
+
+====================Question=====================
+QNAME : cnn.com.
+QTYPE : 0x1
+QCLASS : 0x1
+
+======================Answer=====================
+
+######Answer 1 #######
+NAME : cnn.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 43
+RDLENGTH : 4
+RDATA : 151.101.193.67   ##resolved IP address##
+
+######Answer 2 #######
+NAME : cnn.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 43
+RDLENGTH : 4
+RDATA : 151.101.129.67   ##resolved IP address##
+
+######Answer 3 #######
+NAME : cnn.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 43
+RDLENGTH : 4
+RDATA : 151.101.1.67   ##resolved IP address##
+
+######Answer 4 #######
+NAME : cnn.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 43
+RDLENGTH : 4
+RDATA : 151.101.65.67   ##resolved IP address##
+=================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+$> dns-client amazon.com
+
+
+Preparing DNS query...
+Contacting DNS server...
+Sending DNS query...
+<attemp 1 > please wait...
+DNS response received (attempt  1  of 3) 
+
+Processing DNS response...
+
+======================Header=====================
+headerID : 0x00eb
+headerQR : 1
+headerOpcode : 0
+headerAA : 0
+headerTC : 0
+headerRD : 1
+headerRA : 1
+headerZ : 0
+headerRcode : 0
+QDCOUNT : 1
+ANCOUNT : 3
+NSCOUNT : 0
+ARCOUNT : 0
+
+====================Question=====================
+QNAME : amazon.com.
+QTYPE : 0x1
+QCLASS : 0x1
+
+======================Answer=====================
+
+######Answer 1 #######
+NAME : amazon.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 27
+RDLENGTH : 4
+RDATA : 205.251.242.103   ##resolved IP address##
+
+######Answer 2 #######
+NAME : amazon.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 27
+RDLENGTH : 4
+RDATA : 176.32.98.166   ##resolved IP address##
+
+######Answer 3 #######
+NAME : amazon.com. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 27
+RDLENGTH : 4
+RDATA : 176.32.103.205   ##resolved IP address##
+=================================================
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+$> dns-client gmu.edu
+
+
+Preparing DNS query...
+Contacting DNS server...
+Sending DNS query...
+<attemp 1 > please wait...
+DNS response received (attempt  1  of 3) 
+
+Processing DNS response...
+
+======================Header=====================
+headerID : 0x0021
+headerQR : 1
+headerOpcode : 0
+headerAA : 0
+headerTC : 0
+headerRD : 1
+headerRA : 1
+headerZ : 0
+headerRcode : 0
+QDCOUNT : 1
+ANCOUNT : 1
+NSCOUNT : 0
+ARCOUNT : 0
+
+====================Question=====================
+QNAME : gmu.edu.
+QTYPE : 0x1
+QCLASS : 0x1
+
+======================Answer=====================
+
+######Answer 1 #######
+NAME : gmu.edu. ( c0 0c )
+TYPE : 0x1
+CLASS : 0x1
+TTL(time to live) : 19168
+RDLENGTH : 4
+RDATA : 129.174.1.59   ##resolved IP address##
+=================================================
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
